@@ -20,3 +20,7 @@ function make($file, $data){
     ob_end_clean();
     return $content;
 }
+
+function asset($path){
+    return getenv('APP_URL') . '/public/' . $path;
+}
