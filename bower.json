@@ -1,0 +1,21 @@
+{
+  "name": "mvcecom",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/assets/bower/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.6.3",
+    "motion-ui": "^2.0.3",
+    "jquery": "~3.5.1",
+    "slick-carousel": "^1.8.1"
+  }
+}

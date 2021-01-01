@@ -1,0 +1,21 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },   
+        "files": ["app/functions/helper.php"]
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.2",
+        "vlucas/phpdotenv": "^5.2",
+        "altorouter/altorouter": "^2.0",
+        "illuminate/database": "^8.20",
+        "illuminate/view": "^8.20",
+    },
+    "require-dev": {
+        "filp/whoops": "^2.9"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
