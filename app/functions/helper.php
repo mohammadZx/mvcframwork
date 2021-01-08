@@ -3,6 +3,8 @@
 require_once  __DIR__ . '/blade.php';
 require_once  __DIR__ . '/session.php';
 require_once  __DIR__ . '/csrftoken.php';
+require_once  __DIR__ . '/upload.php';
+require_once  __DIR__ . '/request.php';
 
 use Philo\Blade\Blade;
 
