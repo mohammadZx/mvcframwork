@@ -10,6 +10,6 @@
 hello
 
 {{$test}}
-    
+<br>
 </body>
 </html>

@@ -1,6 +1,9 @@
 
 <?php
 require_once  __DIR__ . '/blade.php';
+require_once  __DIR__ . '/session.php';
+require_once  __DIR__ . '/csrftoken.php';
+
 use Philo\Blade\Blade;
 
 function view($path, $data = []){
@@ -23,4 +26,11 @@ function make($file, $data){
 
 function asset($path){
     return getenv('APP_URL') . '/public/' . $path;
+}
+function redirect($path){
+    return header('Location:' . public_path() . $path);
+}
+
+function  public_path(){
+    return getenv('APP_URL') . '/public/'; 
 }

@@ -11,6 +11,6 @@ hello
 
 <?php echo e($test); ?>
 
-    
+<br>
 </body>
 </html><?php /**PATH C:\xampp\htdocs\gitrepo\mvcframwork\resources\view/test.blade.php ENDPATH**/ ?>
