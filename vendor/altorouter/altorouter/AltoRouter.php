@@ -119,7 +119,7 @@ class AltoRouter
      */
     public function map($method, $route, $target, $name = null)
     {
-
+        $route = getenv('APP_PATH') . $route;
         $this->routes[] = [$method, $route, $target, $name];
 
         if ($name) {

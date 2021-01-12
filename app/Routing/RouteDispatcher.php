@@ -15,7 +15,7 @@ class RouteDispatcher{
 
         if($this->match){
             list($controller,$method) = explode('@', $this->match['target']);
-            $this->controller = $controller;
+            $this->controller = '\App\Controllers' . $controller;
             $this->method = $method;
 
             if(is_callable([$this->controller, $this->method])){
