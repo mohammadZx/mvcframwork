@@ -14,4 +14,5 @@
     <input type="file" name="image" id="">
     <input type="submit">
 </form>
+
 @endsection

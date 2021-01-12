@@ -36,3 +36,15 @@ function redirect($path){
 function  public_path(){
     return getenv('APP_URL') . '/public/'; 
 }
+
+function slug($txt){
+    return str_replace(' ', '-', $txt);
+}
+
+if(request()->is('post') && !request()->has('token'))
+            throw new \Exception('token needd');
+elseif(request()->is('post') && request()->has('token'))
+    if(!csrf()->verifyToken(request()->token)) 
+        throw new \Exception('token invalid');
+
+        

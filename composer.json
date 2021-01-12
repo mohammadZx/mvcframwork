@@ -10,7 +10,8 @@
         "vlucas/phpdotenv": "^5.2",
         "altorouter/altorouter": "^2.0",
         "illuminate/database": "^8.20",
-        "illuminate/view": "^8.20"
+        "illuminate/view": "^8.20",
+        "illuminate/pagination": "^8.22"
     },
     "require-dev": {
         "filp/whoops": "^2.9"

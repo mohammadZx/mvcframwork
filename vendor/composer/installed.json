@@ -760,6 +760,59 @@
             "install-path": "../illuminate/macroable"
         },
         {
+            "name": "illuminate/pagination",
+            "version": "v8.22.0",
+            "version_normalized": "8.22.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/pagination.git",
+                "reference": "56772aa2c4bfd4e228eddf43cff0974b434178dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/pagination/zipball/56772aa2c4bfd4e228eddf43cff0974b434178dc",
+                "reference": "56772aa2c4bfd4e228eddf43cff0974b434178dc",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/collections": "^8.0",
+                "illuminate/contracts": "^8.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.3|^8.0"
+            },
+            "time": "2020-11-26T14:30:03+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "8.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Pagination\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Pagination package.",
+            "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "install-path": "../illuminate/pagination"
+        },
+        {
             "name": "illuminate/pipeline",
             "version": "v8.22.0",
             "version_normalized": "8.22.0.0",

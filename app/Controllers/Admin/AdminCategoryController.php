@@ -6,13 +6,21 @@ use App\Models\Category;
 
 class AdminCategoryController extends BasicController{
     public function show(){
-       $categories = Category::all();
-       echo '<pre>';
-       print_r($categories);
-       die('dsfd');
+       $categories = Category::paginate(2);
+       return view('admin/products/category', [
+           'cats' => $categories
+       ]);
     }
 
     public function store(){
-       die('create');
+       $category = new Category();
+       $category->name = request()->name;
+       $category->slug = slug(request()->name);
+       $category->save();
+       $categories = Category::paginate(2);
+
+       return view('admin/products/category', [
+           'cats' => $categories
+       ]);
     }
 }

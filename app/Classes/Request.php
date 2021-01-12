@@ -1,6 +1,5 @@
 <?php
 namespace App\Classes;
-
 class Request{
     public $getReqeust = [];
     public $postReqeust = [];
@@ -59,6 +58,10 @@ class Request{
 
     public function old($key, $value){
         return isset($this->all()->$key->$value) ? $this->all()->$key->$value : "";
+    }
+
+    public function is($req){
+        return $_SERVER['REQUEST_METHOD'] == strtoupper($req);
     }
 
     public function refresh(){
