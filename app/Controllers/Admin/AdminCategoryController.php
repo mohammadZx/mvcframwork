@@ -3,9 +3,10 @@ namespace App\Controllers\Admin;
 use App\Controllers\BasicController;
 use App\Classes\Request;
 use App\Models\Category;
-
+use Illuminate\Pagination\Paginator;
 class AdminCategoryController extends BasicController{
     public function show(){
+
        $categories = Category::paginate(2);
        return view('admin/products/category', [
            'cats' => $categories

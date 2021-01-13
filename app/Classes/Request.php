@@ -70,4 +70,8 @@ class Request{
         $_FILES = [];
         return;
     }
+
+    public function url(){
+        return strtok($_SERVER["REQUEST_URI"], '?');
+    }
 }

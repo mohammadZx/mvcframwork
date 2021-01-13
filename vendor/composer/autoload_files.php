@@ -18,4 +18,5 @@ return array(
     '72579e7bd17821bb1321b87411366eae' => $vendorDir . '/illuminate/support/helpers.php',
     'ef65a1626449d89d0811cf9befce46f0' => $vendorDir . '/illuminate/events/functions.php',
     '01037c37b1093bd1affa5b83399f2381' => $baseDir . '/app/functions/helper.php',
+    '7b6da17ee52fc1de63821b4ffee602db' => $baseDir . '/config/app.php',
 );
