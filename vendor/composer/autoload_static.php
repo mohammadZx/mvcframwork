@@ -19,6 +19,7 @@ class ComposerStaticInit686083325f84b34da01d8f450ba7d853
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
         'ef65a1626449d89d0811cf9befce46f0' => __DIR__ . '/..' . '/illuminate/events/functions.php',
         '01037c37b1093bd1affa5b83399f2381' => __DIR__ . '/../..' . '/app/functions/helper.php',
+        '7b6da17ee52fc1de63821b4ffee602db' => __DIR__ . '/../..' . '/config/app.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -56,6 +57,7 @@ class ComposerStaticInit686083325f84b34da01d8f450ba7d853
         'I' => 
         array (
             'Illuminate\\View\\' => 16,
+            'Illuminate\\Translation\\' => 23,
             'Illuminate\\Support\\' => 19,
             'Illuminate\\Pipeline\\' => 20,
             'Illuminate\\Pagination\\' => 22,
@@ -166,6 +168,10 @@ class ComposerStaticInit686083325f84b34da01d8f450ba7d853
         array (
             0 => __DIR__ . '/..' . '/illuminate/view',
         ),
+        'Illuminate\\Translation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/translation',
+        ),
         'Illuminate\\Support\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/collections',
@@ -240,6 +246,7 @@ class ComposerStaticInit686083325f84b34da01d8f450ba7d853
         'App\\Controllers\\BasicController' => __DIR__ . '/../..' . '/app/Controllers/BasicController.php',
         'App\\Controllers\\IndexController' => __DIR__ . '/../..' . '/app/Controllers/IndexController.php',
         'App\\Models\\Category' => __DIR__ . '/../..' . '/app/Models/Category.php',
+        'App\\Providers\\PaginationProviders' => __DIR__ . '/../..' . '/app/Providers/PaginationProviders.php',
         'App\\Routing\\RouteDispatcher' => __DIR__ . '/../..' . '/app/Routing/RouteDispatcher.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
@@ -780,6 +787,11 @@ class ComposerStaticInit686083325f84b34da01d8f450ba7d853
         'Illuminate\\Support\\Traits\\ReflectsClosures' => __DIR__ . '/..' . '/illuminate/support/Traits/ReflectsClosures.php',
         'Illuminate\\Support\\Traits\\Tappable' => __DIR__ . '/..' . '/illuminate/support/Traits/Tappable.php',
         'Illuminate\\Support\\ViewErrorBag' => __DIR__ . '/..' . '/illuminate/support/ViewErrorBag.php',
+        'Illuminate\\Translation\\ArrayLoader' => __DIR__ . '/..' . '/illuminate/translation/ArrayLoader.php',
+        'Illuminate\\Translation\\FileLoader' => __DIR__ . '/..' . '/illuminate/translation/FileLoader.php',
+        'Illuminate\\Translation\\MessageSelector' => __DIR__ . '/..' . '/illuminate/translation/MessageSelector.php',
+        'Illuminate\\Translation\\TranslationServiceProvider' => __DIR__ . '/..' . '/illuminate/translation/TranslationServiceProvider.php',
+        'Illuminate\\Translation\\Translator' => __DIR__ . '/..' . '/illuminate/translation/Translator.php',
         'Illuminate\\View\\AnonymousComponent' => __DIR__ . '/..' . '/illuminate/view/AnonymousComponent.php',
         'Illuminate\\View\\AppendableAttributeValue' => __DIR__ . '/..' . '/illuminate/view/AppendableAttributeValue.php',
         'Illuminate\\View\\Compilers\\BladeCompiler' => __DIR__ . '/..' . '/illuminate/view/Compilers/BladeCompiler.php',
